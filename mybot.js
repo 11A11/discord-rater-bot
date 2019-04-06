@@ -5,7 +5,7 @@ const fields=["Dankmeter"];
 client.on("ready", () => {
   console.log("I am ready!");
 });
-const prefix = "do curate";
+const prefix = "do curate"; // the command that the bot responds to.
 client.on("message", (message) => {
     
     if (!message.content.startsWith(prefix) || message.author.bot) return;
